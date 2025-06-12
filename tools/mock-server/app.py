@@ -11,6 +11,7 @@ from flask import (Flask, redirect, render_template, request, make_response,
 app = Flask(__name__)
 
 
+
 @app.route('/')
 def index():
     return {"message": "OpenAI Mock service is running. Open http://aka.ms/ai-gateway for information on how to use."}
