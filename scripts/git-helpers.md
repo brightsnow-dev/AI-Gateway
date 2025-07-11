@@ -1,5 +1,6 @@
 # Git Helpers
 
+
 ## Excluding Files from PRs
 
 To exclude sensitive files that shouldn't be committed:

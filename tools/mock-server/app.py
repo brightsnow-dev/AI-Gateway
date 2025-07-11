@@ -7,7 +7,9 @@ from openai.types.chat.chat_completion import ChatCompletion, Choice
 from flask import (Flask, redirect, render_template, request, make_response,
                    send_from_directory, url_for)
 
+
 app = Flask(__name__)
+
 
 
 @app.route('/')
